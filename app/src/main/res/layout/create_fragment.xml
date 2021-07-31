@@ -45,7 +45,6 @@
         android:backgroundTint="@color/primary_collor"
         android:drawableStart="@drawable/ic_check"
         android:drawableTint="@color/white"
-        android:onClick="onSelectImage"
         android:text="@string/save_alarm"
         android:textColor="@android:color/white"
         app:layout_constraintEnd_toEndOf="parent"
