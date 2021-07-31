@@ -16,6 +16,9 @@ ext {
     lifecycle_common = "androidx.lifecycle:lifecycle-common-java8:2.2.0"
     lifecycle_viewmodel = "androidx.lifecycle:lifecycle-viewmodel-ktx:2.3.0"
     lifecycle_ext = 'androidx.lifecycle:lifecycle-extensions:2.2.0'
+    navigation_fragment_ktx = 'androidx.navigation:navigation-fragment-ktx:2.3.2'
+    navigation_ui_ktx = 'androidx.navigation:navigation-ui-ktx:2.3.2'
+    fragment_ktx = "androidx.fragment:fragment-ktx:1.2.5"
 
     kotlin_coroutines = "org.jetbrains.kotlinx:kotlinx-coroutines-core:1.4.2"
     kotlin_coroutines_test = "org.jetbrains.kotlinx:kotlinx-coroutines-test:1.4.2"

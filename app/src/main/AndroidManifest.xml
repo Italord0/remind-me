@@ -3,6 +3,7 @@
     package="com.italo.remind_me">
 
     <application
+        android:name=".RemindmeApplication"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
