@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Remind me</string>
+    <string name="create_alert">Criar Alerta</string>
+    <string name="alert_title">Nome do alerta</string>
+    <string name="alert_time">Horário do alerta</string>
+    <string name="save_alert">Salvar alerta</string>
+    <string name="you_dont_have_any_alarms">Você não tem nenhum alerta, começe criando um clicando no botão \"+\"</string>
+</resources>

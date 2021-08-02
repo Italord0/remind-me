@@ -14,17 +14,18 @@ import javax.inject.Inject
 
 @HiltViewModel
 class CreateViewModel @Inject constructor(
-    private val alarmRepository: AlarmRepository
+    private val alarmRepository: AlarmRepository,
 ) : ViewModel() {
 
-    private val _alarmInsert = MutableLiveData<Boolean>()
-    val alarmInsert: LiveData<Boolean>
+    private val _alarmInsert = MutableLiveData<Alarm>()
+    val alarmInsert: LiveData<Alarm>
         get() = _alarmInsert
 
     fun insertAlarm(alarm: Alarm) {
         CoroutineScope(Dispatchers.Main).launch {
             withContext(Dispatchers.IO) {
-                alarmRepository.insertAlarm(alarm)
+                alarm.id = alarmRepository.insertAlarm(alarm).toInt()
+                _alarmInsert.postValue(alarm)
             }
         }
     }

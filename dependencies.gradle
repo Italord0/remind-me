@@ -14,7 +14,7 @@ ext {
     lifecycle_compiler = "androidx.lifecycle:lifecycle-compiler:2.2.0"
     lifecycle_process = "androidx.lifecycle:lifecycle-process:2.2.0"
     lifecycle_common = "androidx.lifecycle:lifecycle-common-java8:2.2.0"
-    lifecycle_viewmodel = "androidx.lifecycle:lifecycle-viewmodel-ktx:2.3.0"
+    lifecycle_viewmodel = "androidx.lifecycle:lifecycle-viewmodel-ktx:2.3.1"
     lifecycle_ext = 'androidx.lifecycle:lifecycle-extensions:2.2.0'
     navigation_fragment_ktx = 'androidx.navigation:navigation-fragment-ktx:2.3.2'
     navigation_ui_ktx = 'androidx.navigation:navigation-ui-ktx:2.3.2'
@@ -33,4 +33,6 @@ ext {
     room = "androidx.room:room-runtime:2.3.0"
     room_compiler = "androidx.room:room-compiler:2.3.0"
     room_ktx = "androidx.room:room-ktx:2.3.0"
+
+    lootie = "com.airbnb.android:lottie:3.7.0"
 }

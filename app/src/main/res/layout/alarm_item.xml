@@ -31,7 +31,7 @@
                 app:tint="@android:color/white" />
 
             <com.google.android.material.textview.MaterialTextView
-                android:id="@+id/alertTitle"
+                android:id="@+id/alarmTitle"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_margin="16dp"
@@ -45,7 +45,7 @@
                 tools:text="Um alerta criado para a melhor hora do dia" />
 
             <com.google.android.material.textview.MaterialTextView
-                android:id="@+id/alertTime"
+                android:id="@+id/alarmTime"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_margin="8dp"

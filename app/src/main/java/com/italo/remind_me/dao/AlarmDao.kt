@@ -14,7 +14,7 @@ interface AlarmDao {
     fun getAll(): List<Alarm>
 
     @Insert(onConflict = OnConflictStrategy.IGNORE)
-    fun insertAlarm(alarm: Alarm)
+    fun insertAlarm(alarm: Alarm): Long
 
     @Delete
     fun deleteAlarm(alarm: Alarm)

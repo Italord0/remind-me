@@ -1,7 +1,8 @@
 <resources>
     <string name="app_name">Remind me</string>
-    <string name="create_alert">Create alert</string>
+    <string name="create_alert">Create Alert</string>
     <string name="alert_title">Alert title</string>
     <string name="alert_time">Alert time</string>
-    <string name="save_alarm">Save Alarm</string>
+    <string name="save_alert">Save Alert</string>
+    <string name="you_dont_have_any_alarms">You dont have any alerts, start creating one by clicking the \"+ button</string>
 </resources>

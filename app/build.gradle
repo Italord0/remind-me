@@ -53,12 +53,13 @@ dependencies {
     implementation jetpack_preferences
 
     implementation hilt_android
-    implementation 'androidx.legacy:legacy-support-v4:1.0.0'
-    implementation 'androidx.lifecycle:lifecycle-livedata-ktx:2.3.1'
-    implementation 'androidx.lifecycle:lifecycle-viewmodel-ktx:2.3.1'
+    implementation lifecycle_common
+    implementation lifecycle_viewmodel
     kapt kapt_hilt_compiler
 
     implementation room
     implementation room_ktx
     kapt room_compiler
+
+    implementation lootie
 }

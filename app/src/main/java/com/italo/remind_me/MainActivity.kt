@@ -1,7 +1,6 @@
 package com.italo.remind_me
 
 import android.os.Bundle
-import android.view.View
 import androidx.appcompat.app.AppCompatActivity
 import androidx.navigation.NavController
 import androidx.navigation.findNavController
@@ -30,9 +29,5 @@ class MainActivity : AppCompatActivity() {
     override fun onSupportNavigateUp(): Boolean {
         return navController.navigateUp(appBarConfiguration) ||
             super.onSupportNavigateUp()
-    }
-
-    fun onClickFab(view: View) {
-        navController.navigate(R.id.createFragment)
     }
 }

@@ -33,19 +33,21 @@
 
         <com.google.android.material.textfield.TextInputEditText
             android:layout_width="match_parent"
-            android:layout_height="wrap_content" />
+            android:layout_height="wrap_content"
+            android:focusable="false"
+            android:inputType="number" />
 
     </com.google.android.material.textfield.TextInputLayout>
 
     <androidx.appcompat.widget.AppCompatButton
-        android:id="@+id/btnChooseImage"
+        android:id="@+id/btnSaveAlarm"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="16dp"
         android:backgroundTint="@color/primary_collor"
         android:drawableStart="@drawable/ic_check"
         android:drawableTint="@color/white"
-        android:text="@string/save_alarm"
+        android:text="@string/save_alert"
         android:textColor="@android:color/white"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
