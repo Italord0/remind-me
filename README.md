@@ -25,7 +25,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 
 ## ⌚ Projeto
-Aplicativo para criar alertas e mostrá-las nas notificações
+Aplicativo para criar alertas e mostrá-los nas notificações
 
 
 ## 👨‍💻 Libs utilizadas
