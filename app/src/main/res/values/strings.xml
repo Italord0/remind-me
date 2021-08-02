@@ -5,4 +5,5 @@
     <string name="alert_time">Alert time</string>
     <string name="save_alert">Save Alert</string>
     <string name="you_dont_have_any_alarms">You dont have any alerts, start creating one by clicking the \"+ button</string>
+    <string name="repeat">Repeat</string>
 </resources>

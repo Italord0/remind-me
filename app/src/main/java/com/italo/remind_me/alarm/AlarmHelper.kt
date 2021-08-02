@@ -12,18 +12,18 @@ object AlarmHelper {
     fun scheduleRTC(
         context: Context,
         alarmManager: AlarmManager,
-        alarm: Alarm,
-        repeat: Boolean,
+        alarm: Alarm
     ) {
         val intent = Intent(context, AlarmBroadcastReceiver::class.java)
         println(alarm)
         intent.putExtra("ALARM_ID", alarm.id)
         intent.putExtra("ALARM_NAME", alarm.name)
+        intent.putExtra("ALARM_REPEAT", alarm.repeat)
 
         val pendingIntent =
             PendingIntent.getBroadcast(context, (0..2147483647).random(), intent, 0)
 
-        if (repeat) {
+        if (alarm.repeat) {
             alarmManager.setRepeating(
                 AlarmManager.RTC_WAKEUP,
                 alarm.triggerTime,

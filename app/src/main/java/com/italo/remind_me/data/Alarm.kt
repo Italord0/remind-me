@@ -10,4 +10,5 @@ data class Alarm(
     var id: Int,
     val name: String?,
     val triggerTime: Long,
+    val repeat: Boolean,
 ) : Serializable

@@ -61,7 +61,8 @@ class CreateFragment() : Fragment() {
         return Alarm(
             id = 0,
             name = binding.tilAlertTitle.editText?.text.toString(),
-            triggerTime = selectedCalendar.time.time
+            triggerTime = selectedCalendar.time.time,
+            repeat = binding.checkRepeat.isChecked
         )
     }
 
@@ -69,8 +70,7 @@ class CreateFragment() : Fragment() {
         AlarmHelper.scheduleRTC(
             requireContext(),
             AlarmHelper.getAlarmManager(requireContext()),
-            it,
-            false
+            it
         )
     }
 
