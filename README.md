@@ -29,5 +29,4 @@ Aplicativo para criar alertas e mostrá-las nas notificações
 
 
 ## 👨‍💻 Libs utilizadas
-- [Picasso](https://github.com/square/picasso)
 - [Lootie](https://github.com/airbnb/lottie-android)
