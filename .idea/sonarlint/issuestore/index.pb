@@ -1,5 +1,37 @@
 
 <
 build.gradle,f\0\f07866736216be0ee2aba49e392191aeae700a35
+g
+7app/src/main/java/com/italo/remind_me/db/AppDatabase.kt,3\8\3813b7ca5db56e8fd9b4e07908394b43307b5105
+i
+9app/src/main/java/com/italo/remind_me/di/AlarmDBModule.kt,d\1\d1e6e1f49f035ce7203548b537a14ea6e302fbd5
+n
+>app/src/main/java/com/italo/remind_me/ui/home/HomeViewModel.kt,1\b\1bdf1a76f9d29cfe95b2cc2c33de9449d5eda2c6
+m
+=app/src/main/java/com/italo/remind_me/adapter/AlarmAdapter.kt,d\e\de2fe5b99d0ac32de05aff9e348c85983e38c7d2
+e
+5app/src/main/java/com/italo/remind_me/dao/AlarmDao.kt,6\5\65770332be94a94866f602e0b109fa46d8d38c9d
+m
+=app/src/main/java/com/italo/remind_me/data/AlarmRepository.kt,f\8\f83a5a2bac307c4c5035a3d45a880acec081512e
+@
+app/build.gradle,f\4\f4a01d6a4fcb971362ec00a83903fd3902f52164
+r
+Bapp/src/main/java/com/italo/remind_me/ui/create/CreateViewModel.kt,7\0\7097c509428b3fc0ace1f492843cfb874e32bb87
+C
+dependencies.gradle,9\2\9282de42fdd92f96bfdaa8eed76823d133cf1624
+m
+=app/src/main/java/com/italo/remind_me/ui/home/HomeFragment.kt,b\e\be27497f3b844c47b5ae75e831ee9d4912ed3cc4
+e
+5app/src/main/java/com/italo/remind_me/MainActivity.kt,0\5\05d099d531e5f0a7e98ebaa8445c73dc54479427
+x
+Happ/src/main/java/com/italo/remind_me/notification/NotificationHelper.kt,9\f\9ffe6f24f0be099ab3f1184c5d57cd2db6b7a852
+c
+3app/src/main/java/com/italo/remind_me/data/Alarm.kt,3\a\3a31560b65199c7269ea311dd5e865164b4243fe
+j
+:app/src/main/java/com/italo/remind_me/alarm/AlarmHelper.kt,7\6\76a8f6ab8fe5bbbca97e79982d77ffc852f6ac0a
+y
+Iapp/src/main/java/com/italo/remind_me/broadcast/AlarmBroadcastReceiver.kt,6\c\6cb052bf2db3384c6a06da20c910d29df8d01e66
 l
 <app/src/main/java/com/italo/remind_me/RemindmeApplication.kt,9\6\96d7d0999df295392ad625539790f7f826406acd
+P
+ app/src/main/AndroidManifest.xml,8\c\8c55c3ccc257e5907959013f99656e4c8ec3903e
